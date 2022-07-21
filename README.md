@@ -6,3 +6,5 @@ Repository hosting simulations samples for webots.cloud:
  - `demo4_custom_dockerfile`: a simulation with a Dockerfile to install an additional library.
  - `demo5_IDE`: a simulation that will expose an IDE.
  - `demo6_binary`: a simulation that uses a dirty trick to reduce the loading time.
+
+More information is available ([here](https://cyberbotics.com/doc/guide/webots-cloud))
