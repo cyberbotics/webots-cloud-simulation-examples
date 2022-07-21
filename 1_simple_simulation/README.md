@@ -5,4 +5,4 @@ This folder contains:
  - A `worlds` folder containing the world and the thumbnail (optional).
  - A `controllers` folder containing the controller and the necessary Makefiles
 
- You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/1_simple_simulation/worlds/panda.wbt))
+You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/1_simple_simulation/worlds/panda.wbt))

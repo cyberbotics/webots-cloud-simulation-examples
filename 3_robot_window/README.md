@@ -10,4 +10,4 @@ This folder contains:
    - The JavaScript and C files deal with the interactions between the page and the robot, using the WWI API to
      exchange string messages.
 
- You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/3_robot_window/worlds/thymio_obstacle_avoidance.wbt))
+You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/3_robot_window/worlds/thymio_obstacle_avoidance.wbt))

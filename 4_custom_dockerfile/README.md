@@ -1,13 +1,11 @@
-# 3: robot window
+# 4: custom dockerfile
 This folder contains:
  - A `webots.yaml` file that is mandatory for the simulation to be published on webots.cloud
- - A `Dockerfile` file that will compile the robot window of the demo.
+ - A `Dockerfile` file that will install an additional library need by the controller: `ikpy`
  - A `worlds` folder containing the thumbnail (optional) and the world.
  - A `controllers` folder containing the controller
- - A `plugins`folder containing the element of the roboto window
-   - The HTML file contains the page content.
-   - The CSS file contains the page style.
-   - The JavaScript and C files deal with the interactions between the page and the robot, using the WWI API to
-     exchange string messages.
 
- You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/3_robot_window/worlds/thymio_obstacle_avoidance.wbt))
+Another solution would be to build another docker (with the needed libraries inside), push it on https://hub.docker.com and then use it for your simulation (by changing the `FROM` of the Dockerfile).
+The first time you will load the simulation on a server, it will be slower, because the server need to get the new docker, but it will be faster the next times.
+
+You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/4_custom_dockerfile/worlds/inverse_kinematics.wbt))
