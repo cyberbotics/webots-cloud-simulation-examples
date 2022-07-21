@@ -5,6 +5,12 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/neuronics/ipr/protos/IprHd6ms180.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/tables/protos/Table.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/ThreadMetalPlate.proto"
+EXTERNPROTO "webots://projects/appearances/protos/CorrodedMetal.proto"
+EXTERNPROTO "webots://projects/appearances/protos/OsbWood.proto"
+EXTERNPROTO "webots://projects/appearances/protos/BrushedAluminium.proto"
+EXTERNPROTO "webots://projects/appearances/protos/Plastic.proto"
+EXTERNPROTO "webots://projects/appearances/protos/BakelitePlastic.proto"
+EXTERNPROTO "webots://projects/appearances/protos/ScuffedPlastic.proto"
 
 WorldInfo {
   info [
@@ -23,8 +29,8 @@ WorldInfo {
   ]
 }
 Viewpoint {
-  orientation 0.2983867725941495 0.04655136130322282 -0.9533091338603991 3.154729463798096
-  position 3.350292655968744 -0.3857154452509872 3.1878359342275777
+  orientation 0.2161731187937955 -0.004187187152501911 -0.9763460709065784 3.103203189210621
+  position 2.9401823866293473 -0.31566153747211984 2.0560469785728293
 }
 TexturedBackground {
 }
@@ -51,10 +57,7 @@ DEF BIG_BOX Solid {
   translation 0 -1.4 0.235
   children [
     Shape {
-      appearance PBRAppearance {
-        baseColor 0.8 0.8 0.8
-        roughness 1
-        metalness 0
+      appearance BrushedAluminium {
       }
       geometry Box {
         size 0.7 0.4 0.46
@@ -70,10 +73,8 @@ DEF CUBE0 Solid {
   translation 0.2 -1.35 0.495
   children [
     DEF CUBE Shape {
-      appearance PBRAppearance {
-        baseColor 1 0 0
-        roughness 0.365482152
-        metalness 0
+      appearance Plastic {
+        colorOverride 0.878431 0.105882 0.141176
       }
       geometry Box {
         size 0.05 0.05 0.05
@@ -117,10 +118,8 @@ DEF CHAIR Solid {
       translation -0.02 -0.2 0.2
       children [
         DEF FACE Shape {
-          appearance DEF VIOLET PBRAppearance {
-            baseColor 0.666667 0.219608 0.94902
-            roughness 0.417905635
-            metalness 0
+          appearance DEF VIOLET Plastic {
+            colorOverride 0.568627 0.254902 0.67451
           }
           geometry Box {
             size 0.4 0.04 0.4
