@@ -27,6 +27,7 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/stairs/protos/StraightStairs.proto"
 
 WorldInfo {
+  title "Irb demo"
   basicTimeStep 16
 }
 Viewpoint {
