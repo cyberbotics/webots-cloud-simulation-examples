@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2B2B2B;
+  color: #F6F6F6;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 20px;
+}
+h2 {
+  margin-top: 40px;
+}
+#content {
+  padding: 20px;
+}
