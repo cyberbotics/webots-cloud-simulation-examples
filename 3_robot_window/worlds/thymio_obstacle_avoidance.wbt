@@ -11,6 +11,7 @@ EXTERNPROTO "webots://projects/objects/factory/containers/protos/CardboardBox.pr
 EXTERNPROTO "webots://projects/objects/toys/protos/PaperBoat.proto"
 
 WorldInfo {
+  title "Thymio demo"
 }
 Viewpoint {
   orientation 0.35522494034577634 -0.12426173818697447 -0.9264848958181087 3.8123048824503942
