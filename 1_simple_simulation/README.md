@@ -7,4 +7,4 @@ This folder contains:
 
 You can see this simulation on webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/1_simple_simulation/worlds/panda.wbt)
 
-See [here](https://cyberbotics.com/doc/guide/webots-cloud#publish-cloud-based-simulations) for more information about displaying your simulation on [webots.cloud](https://webots.cloud/)
+See [here](https://cyberbotics.com/doc/guide/webots-cloud#publish-cloud-based-simulations) for more information about running your simulation in [webots.cloud](https://webots.cloud/).
