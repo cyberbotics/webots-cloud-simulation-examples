@@ -9,4 +9,4 @@ This folder contains:
    - The [CSS file](plugins/robot_windows/speed_robot_window/speed_robot_window.css) contains the page style.
    - The [JavaScript](plugins/robot_windows/speed_robot_window/speed_robot_window.js) and [C](plugins/robot_windows/speed_robot_window/speed_robot_window.c) files deal with the interactions between the page and the robot, using the WWI API to exchange string messages.
 
-You can see this simulation on webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/3_robot_window/worlds/thymio_obstacle_avoidance.wbt)
+You can run this simulation in webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/3_robot_window/worlds/thymio_obstacle_avoidance.wbt).
