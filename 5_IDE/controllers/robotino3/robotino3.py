@@ -36,11 +36,13 @@ while robot.step(timestep) != -1:
     val = distance_sensor.getValue()
     robot.setLabel(0, "distance sensor value: " + str(val), 0, 0, 0.1, 0x000000, 0, "Arial")
 
-    # Process sensor data here.
+    # Process sensor data here.$
+
+    #Uncomment thos lines to make the robot stop before a collision
     # if val > 850:
     #     motor2.setVelocity(0)
-    #     motor3.setVelocity(0)    
-    
+    #     motor3.setVelocity(0)
+
 
 
 # Enter here exit cleanup code.
