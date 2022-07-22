@@ -1,0 +1,199 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "webots://projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "webots://projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "webots://projects/objects/bedroom/protos/Bed.proto"
+EXTERNPROTO "webots://projects/robots/irobot/create/protos/Create.proto"
+EXTERNPROTO "webots://projects/objects/apartment_structure/protos/Door.proto"
+EXTERNPROTO "webots://projects/robots/festo/robotino3/protos/Robotino3.proto"
+EXTERNPROTO "webots://projects/objects/lights/protos/CeilingLight.proto"
+EXTERNPROTO "webots://projects/objects/apartment_structure/protos/Window.proto"
+EXTERNPROTO "webots://projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "webots://projects/objects/paintings/protos/PortraitPainting.proto"
+EXTERNPROTO "webots://projects/objects/cabinet/protos/Cabinet.proto"
+EXTERNPROTO "webots://projects/objects/tables/protos/Desk.proto"
+EXTERNPROTO "webots://projects/objects/chairs/protos/OfficeChair.proto"
+EXTERNPROTO "webots://projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "webots://projects/objects/lights/protos/FloorLight.proto"
+EXTERNPROTO "webots://projects/objects/school_furniture/protos/Book.proto"
+EXTERNPROTO "webots://projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+EXTERNPROTO "webots://projects/objects/living_room_furniture/protos/Sofa.proto"
+EXTERNPROTO "webots://projects/objects/living_room_furniture/protos/Armchair.proto"
+EXTERNPROTO "webots://projects/objects/factory/containers/protos/CardboardBox.proto"
+
+WorldInfo {
+  info [
+    "Try to modify the controller to make the robot stop before a collision."
+  ]
+  title "Robotino 3 demo"
+}
+Viewpoint {
+  orientation -0.17495566338368534 -0.1712572302650894 0.9695676752717701 4.660158033734047
+  position 0.5282369583098575 2.391452593200429 1.2288490396887097
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Solid {
+  children [
+    DEF FLOOR Shape {
+      appearance Parquetry {
+        textureTransform TextureTransform {
+        }
+      }
+      geometry Plane {
+        size 5 5
+      }
+    }
+  ]
+  boundingObject Plane {
+    size 5 5
+  }
+}
+Bed {
+  translation -1.37 -0.93 0
+}
+DEF WALL1 Transform {
+  translation 2.5 0 1.5
+  rotation 0 1 0 -1.5707953071795862
+  children [
+    DEF WALL Shape {
+      appearance DEF ROUGHCAST Roughcast {
+        textureTransform TextureTransform {
+          scale 3 3
+        }
+      }
+      geometry Plane {
+        size 3 5
+      }
+    }
+  ]
+}
+DEF WALL2 Transform {
+  translation -2.5 0 1.5
+  rotation 0 1 0 1.5708
+  children [
+    USE WALL
+  ]
+}
+DEF WALL3 Transform {
+  translation 0 2.5 1.5
+  rotation 0.5773479358540498 0.5773519358536053 -0.5773509358537164 2.0944
+  children [
+    USE WALL
+  ]
+}
+DEF WALL4 Transform {
+  translation 1.5 -2.5 1.5
+  rotation 0.5773472691841857 -0.5773512691860505 -0.5773522691865168 -2.094395307179586
+  children [
+    Shape {
+      appearance USE ROUGHCAST
+      geometry Plane {
+        size 3 2
+      }
+    }
+  ]
+}
+DEF WALL5 Transform {
+  translation -1.5 -2.5 1.5
+  rotation 0.5773472691841857 -0.5773512691860505 -0.5773522691865168 -2.094395307179586
+  children [
+    Shape {
+      appearance USE ROUGHCAST
+      geometry Plane {
+        size 3 2
+      }
+    }
+  ]
+}
+DEF CEILING Transform {
+  translation 0 0 3
+  rotation 0 1 0 3.14159
+  children [
+    Shape {
+      appearance USE ROUGHCAST
+      geometry Plane {
+        size 5 5
+      }
+    }
+  ]
+}
+Door {
+  translation 2.5 0.63 0
+  rotation 0 0 1 3.14159
+  size 1e-05 1 2
+  doorThickness 0.02
+  frameSize 0.001 0.001 0.001
+}
+Cabinet {
+  translation 1.17 2.51 0
+  rotation 0 0 1 -1.5707953071795862
+}
+Robotino3 {
+  translation 0.0388374 0.396129 0
+  rotation 0 0 1 -0.785395307179586
+  supervisor TRUE
+  cameraSlot [
+    DistanceSensor {
+      translation -7.3464e-07 -0.2 0.23
+      rotation 0 0 -1 1.5708
+      name "ds"
+      lookupTable [
+        0 1000 0
+        1 0 0
+      ]
+    }
+  ]
+}
+CeilingLight {
+  translation 0 0 3
+}
+Window {
+  translation 2.56992e-06 -2.5 0
+  rotation 0 0 1 -1.5707953071795862
+  size 0.0001 1 3
+  windowThickness 0.01
+  bottomWallHeight 1
+  windowHeight 1.1
+  frameSize 0.04 0.02 0.05
+}
+PortraitPainting {
+  translation -1.11 2.47 2.155
+  rotation 0 0 1 -1.5707953071795862
+}
+Desk {
+  translation -1.2162 2.14753 0
+  rotation 0 0 1 -1.5707953071795862
+}
+OfficeChair {
+  translation -1.2876 1.55218 3.55271e-15
+  rotation 0 0 1 1.309
+}
+Table {
+  translation -2.14 0.12 0
+  size 0.4 0.4 0.6
+  feetSize 0.05 0.05
+}
+Transform {
+  translation -2.28 0 0
+  scale 0.4 0.4 0.4
+  children [
+    FloorLight {
+      translation 0.36 0.29 1.5
+      rotation 0 1 0 0
+      pointLightRadius 0
+    }
+  ]
+}
+Book {
+  translation -1.22 2.14 0.72
+  rotation 0.5199881374825417 0.6776611791705899 0.5199881374825417 -1.950445307179586
+}
+Armchair {
+  translation 1.36705 -1.33305 0
+  rotation 0 0 1 2.35619
+}
