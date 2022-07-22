@@ -1,4 +1,4 @@
-# 6: binaries
+# 6 Binaries
 This folder contains:
  - A `webots.yaml` file that is mandatory for the simulation to be published on webots.cloud.
  - A `worlds` folder containing the thumbnail (optional) and the world.
@@ -10,4 +10,4 @@ By doing so, we can skip the compilation step when loading the simulation.
 
 However this is a bad practice, should be done cautiously, and is not guarantee to work depending on the version of the compiler.
 
-You can see the simulation on webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/6_binaries/worlds/ipr_collaboration.wbt)
+You can see this simulation on webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/6_binaries/worlds/ipr_collaboration.wbt)
