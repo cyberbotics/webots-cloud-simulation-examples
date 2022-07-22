@@ -1,14 +1,15 @@
 #VRML_SIM R2022b utf8
 
-EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackground.proto"
-EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
 EXTERNPROTO "../protos/MyProto.proto"
 
 WorldInfo {
+  title "Local assets demo"
 }
 Viewpoint {
   orientation 0.2188889781026863 0.5265350111852014 -0.82149162945301 0.9369389812108717
-  position -4.728494181322706 5.00231307755799 4.387374909933558
+  position -4.714696945446689 4.988445084617263 4.421478004406619
 }
 TexturedBackground {
 }

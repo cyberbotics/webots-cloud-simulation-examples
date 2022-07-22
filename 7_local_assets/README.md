@@ -6,4 +6,4 @@ This folder contains:
 
 You can see in `worlds/local_proto_demo.wbt`
 
-You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/4_custom_dockerfile/worlds/inverse_kinematics.wbt))
+You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/7_local_assets/worlds/local_assets_demo.wbt))
