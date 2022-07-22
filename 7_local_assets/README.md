@@ -1,4 +1,4 @@
-# 7 : local-assets
+# 7: local-assets
 This folder contains:
  - A `webots.yaml` file that is mandatory for the simulation to be published on webots.cloud.
  - A `worlds` folder containing the thumbnail (optional) and the world.
