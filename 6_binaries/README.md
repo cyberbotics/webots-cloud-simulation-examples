@@ -1,9 +1,8 @@
 # 6 Binaries
 This folder contains:
- - A `webots.yaml` file that is mandatory for the simulation to be published on webots.cloud.
- - A `worlds` folder containing the thumbnail (optional) and the world.
- - A `controllers` folder containing the already compiled binaries.
- - A `libraries` folder that is needed to build the controllers binaries.
+ - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
+ - A [worlds](worlds) folder containing the [thumbnail](worlds/) (optional, displayed during the simulation load) and the [world](worlds/).
+ - A [controllers](controllers) folder containing the already compiled binaries.
 
 When the compilation of the controllers takes too much time (because they are complex, rely on external dependencies,...), it is possible to commit the binaries in the repository.
 By doing so, we can skip the compilation step when loading the simulation.

@@ -1,8 +1,8 @@
 # 5 IDE
 This folder contains:
- - A `webots.yaml` file that allows to enable the IDE in the web simulation.
- - A `worlds` folder containing the thumbnail (optional) and the world.
- - A `controllers` folder containing the controller.
+ - A [webots.yaml](webots.yaml) file that allows to enable the IDE in the web simulation.
+ - A [worlds](worlds) folder containing the [thumbnail](worlds/.robotino_demo.jpg) (optional, displayed during the simulation load) and the [world](worlds/robotino_demo.wbt).
+ - A [controllers](controllers) folder containing the [controller](controllers/robotino3/robotino3.py).
 
 More information about the online IDE is available [here](https://www.cyberbotics.com/doc/guide/setup-a-webots-project-repository#running-a-simulation)
 
