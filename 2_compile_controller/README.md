@@ -1,6 +1,6 @@
 # 2 Compile Controller
 This folder contains:
- - A `webots.yaml` file that is mandatory for the simulation to be published on webots.cloud.
+ - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
  - A `Dockerfile` file that will compile the controller of the demo.
  - A `worlds` folder containing the thumbnail (optional) and the world.
  - A `controllers` folder containing the controller and the necessary Makefile.
