@@ -1,0 +1,39 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "../protos/MyProto.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.2188889781026863 0.5265350111852014 -0.82149162945301 0.9369389812108717
+  position -4.728494181322706 5.00231307755799 4.387374909933558
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+MyProto {
+  translation 0 0 0.78
+}
+Transform {
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        metalness 0
+        textureTransform TextureTransform {
+          scale 10 10
+        }
+      }
+      geometry Plane {
+        size 10 10
+      }
+    }
+  ]
+}
