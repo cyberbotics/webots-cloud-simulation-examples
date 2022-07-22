@@ -1,4 +1,4 @@
-# 2: compile controller
+# 2 Compile Controller
 This folder contains:
  - A `webots.yaml` file that is mandatory for the simulation to be published on webots.cloud.
  - A `Dockerfile` file that will compile the controller of the demo.
