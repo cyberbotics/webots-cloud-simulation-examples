@@ -10,4 +10,4 @@ By doing so, we can skip the compilation step when loading the simulation.
 
 However this is a bad practice, should be done cautiously, and is not guarantee to work depending on the version of the compiler.
 
-You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/4_custom_dockerfile/worlds/inverse_kinematics.wbt))
+You can see the simulation on webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/4_custom_dockerfile/worlds/inverse_kinematics.wbt)

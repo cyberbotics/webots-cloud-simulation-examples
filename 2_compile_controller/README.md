@@ -5,4 +5,4 @@ This folder contains:
  - A `worlds` folder containing the thumbnail (optional) and the world.
  - A `controllers` folder containing the controller and the necessary Makefile.
 
-You can see the simulation on webots.cloud ([here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/2_compile_controller/worlds/spot.wbt))
+You can see the simulation on webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/2_compile_controller/worlds/spot.wbt)
