@@ -17,7 +17,7 @@ A simulation cannot be replaced by an animation in the following cases:
 
 ## List of simulations
 
-Repository hosting simulations samples for webots.cloud:
+Repository hosting simulations samples for [webots.cloud](https://webots.cloud):
  - [1_simple_simulation](1_simple_simulation): a simple simulation that has no Dockerfile and thus will use the default one.
  - [2_compile_controller](2_compile_controller): a simulation with a Dockerfile that will compile a specific controller.
  - [3_robot_window](3_robot_window): a simulation with a custom robot window.
