@@ -26,6 +26,6 @@ Repository hosting simulations samples for webots.cloud:
  - [6_binary](6_binary): a simulation that uses a dirty trick to reduce the loading time.
  - [7_local_assets](7_local_assets): a simulation that uses a local proto and a local texture.
 
-More information is available [here](https://cyberbotics.com/doc/guide/webots-cloud)
+More information is available [here](https://cyberbotics.com/doc/guide/webots-cloud).
 
 A template repository is available [here](https://github.com/cyberbotics/webots-cloud-simulation-template)
