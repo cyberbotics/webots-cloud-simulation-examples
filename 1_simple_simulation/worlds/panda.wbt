@@ -831,7 +831,6 @@ Bolt {
 LincolnMKZSimple {
   translation -0.019942 9.00447 0.4
   rotation 0 0 1 -1.5708053071795867
-  window "none"
 }
 PlasticCrate {
   translation -0.75 2.53 0.72
