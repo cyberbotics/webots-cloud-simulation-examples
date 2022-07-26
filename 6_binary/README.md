@@ -9,4 +9,4 @@ By doing so, we can skip the compilation step when loading the simulation.
 
 However this is a bad practice, should be done cautiously, and is not guarantee to work depending on the version of the compiler.
 
-You can run this simulation in webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-demos/blob/main/6_binary/worlds/ned.wbt).
+You can run this simulation in webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-examples/blob/main/6_binary/worlds/ned.wbt).
