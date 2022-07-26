@@ -8,7 +8,8 @@ They can be used as templates for developing your own web-based robot simulation
 
 ## Disclaimer
 
-Some of the simulations in this repository would have been more adapted to [animation](https://cyberbotics.com/doc/guide/web-animation) or even [scene](https://cyberbotics.com/doc/guide/web-scene) than simulations. They are provided here to demonstrate various use cases in a simple way.
+Some of the simulations in this repository would have been more adapted to [animation](https://cyberbotics.com/doc/guide/web-animation) or even [scene](https://cyberbotics.com/doc/guide/web-scene) than simulations.
+They are provided here to demonstrate various use cases in a simple way.
 
 As animations and scenes are faster to load, we advise you to prefer them to web simulation whenever possible.
 
