@@ -1,10 +1,15 @@
-# webots-cloud-simulation-demos
+# [webots.cloud](https://webots.cloud) Simulation Demos
+
+## Introduction
+
+This repository provide a series of simple Webots simulations which can be run on the web in [webots.cloud](https://webots.cloud).
+Different examples are provided to cover a large number of use cases.
+They can be used as templates for developing your own web-based robot simulations.
 
 ## Disclaimer
-Some of the simulations in this repository would have been more adapted to [animation](https://cyberbotics.com/doc/guide/web-animation) or even [scene](https://cyberbotics.com/doc/guide/web-scene)
-than simulations.
 
-However they are here to explain some mechanisms in a simple way.
+Some of the simulations in this repository would have been more adapted to [animation](https://cyberbotics.com/doc/guide/web-animation) or even [scene](https://cyberbotics.com/doc/guide/web-scene) than simulations.
+They are provided here to demonstrate various use cases in a simple way.
 
 As animations and scenes are faster to load, we advise you to prefer them to web simulation whenever possible.
 
