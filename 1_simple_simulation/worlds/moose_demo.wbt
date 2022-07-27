@@ -1,12 +1,12 @@
 #VRML_SIM R2022b utf8
 
-EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackground.proto"
-EXTERNPROTO "webots://projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
-EXTERNPROTO "webots://projects/appearances/protos/SandyGround.proto"
-EXTERNPROTO "webots://projects/objects/trees/protos/Sassafras.proto"
-EXTERNPROTO "webots://projects/robots/clearpath/moose/protos/Moose.proto"
-EXTERNPROTO "webots://projects/objects/factory/containers/protos/CardboardBox.proto"
-EXTERNPROTO "webots://projects/objects/trees/protos/Oak.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/SandyGround.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/trees/protos/Sassafras.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/clearpath/moose/protos/Moose.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/trees/protos/Oak.proto"
 
 WorldInfo {
   info [
@@ -36,7 +36,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation -0.22311591330269342 0.05825670531162727 0.9730495596408947 2.6439975480361126
-  position 3.7362525892898306 0.7770992983069598 13.935617455167222
+  position 8.539721863280421 -1.28401915357524 16.220701720458518
   near 1
   follow "moose"
 }
