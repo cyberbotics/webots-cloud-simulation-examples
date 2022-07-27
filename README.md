@@ -1,4 +1,4 @@
-# [webots.cloud](https://webots.cloud) Simulation Demos
+# [webots.cloud](https://webots.cloud) Simulation Examples
 
 ## Introduction
 
