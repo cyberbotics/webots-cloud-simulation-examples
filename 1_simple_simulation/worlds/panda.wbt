@@ -31,7 +31,6 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/ThreadMetalPlate.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/CorrugatedMetal.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/franka_emika/panda/protos/Panda.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/lincoln/LincolnMKZSimple.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/RoughOak.proto"
 
 WorldInfo {
@@ -42,8 +41,8 @@ WorldInfo {
   basicTimeStep 16
 }
 DEF VIEWPOINT Viewpoint {
-  orientation -0.21005185107476815 -0.5772090489931762 0.7891184534785994 5.412765882243327
-  position -1.5881974218492596 3.7082842251473815 2.073445713433802
+  orientation -0.259888876158543 -0.5986762762003022 0.7576572367264693 5.2375424608989345
+  position -2.477003743754911 5.445657873574141 3.6803626181202462
   ambientOcclusionRadius 1
 }
 TexturedBackground {
@@ -713,10 +712,6 @@ Bolt {
   rotation 0.35740494636728165 -0.8628568705184134 -0.3574069463669815 -1.71777
   name "bolt(15)"
   enablePhysics FALSE
-}
-LincolnMKZSimple {
-  translation -0.019942 9.00447 0.4
-  rotation 0 0 1 -1.5708053071795867
 }
 Transform {
   children [
