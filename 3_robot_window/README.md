@@ -1,4 +1,6 @@
 # 3 Robot Window
+This example includes a custom robot window that allows the user to change the speed of the robot during runtime.
+
 This folder contains:
  - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
  - A [Dockerfile](Dockerfile) file that will compile the robot window of the example.
