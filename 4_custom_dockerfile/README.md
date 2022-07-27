@@ -1,4 +1,6 @@
 # 4 Custom Dockerfile
+This simulation is an example of how to load additional dependencies needed by the simulation.
+
 This folder contains:
  - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
  - A [Dockerfile](Dockerfile) file that will install an additional library needed by the controller: [ikpy](https://pypi.org/project/ikpy/).
