@@ -1,4 +1,6 @@
 # 5 IDE
+This simulation will load with an online IDE, allowing you to modify the controller directly in [webots.cloud](https://webots.cloud)
+
 This folder contains:
  - A [webots.yaml](webots.yaml) file that allows to enable the IDE in the web simulation.
  - A [worlds](worlds) folder containing the [thumbnail](worlds/.robotino_example.jpg) (optional, displayed during the simulation load) and the [world](worlds/robotino_example.wbt).
