@@ -1,7 +1,7 @@
 # 3 Robot Window
 This folder contains:
  - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
- - A [Dockerfile](Dockerfile) file that will compile the robot window of the examples.
+ - A [Dockerfile](Dockerfile) file that will compile the robot window of the example.
  - A [worlds](worlds) folder containing the [thumbnail](worlds/.thymio_obstacle_avoidance.jpg) (optional) and the [world](worlds/thymio_obstacle_avoidance.wbt).
  - A [controllers](controllers) folder containing the [controller](controllers/thymo_braitenberg/thymo_braitenberg.py).
  - A [plugins](plugins) folder containing the element of the robot window.
