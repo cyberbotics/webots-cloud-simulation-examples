@@ -1,5 +1,5 @@
 # 1 Simple Simulation
-This example does not have a Dockerfile. Thus, the default one will be used.
+This basic example does not have a Dockerfile. Thus, the default one will be used.
 
 This folder contains:
  - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
