@@ -1,4 +1,6 @@
 # 7 Local Assets
+This simulation relies on local assets: a local texture and a local PROTO that also use local meshes and textures.
+
 This folder contains:
  - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
  - A [worlds](worlds) folder containing the [thumbnail](worlds/.local_assets_example.jpg) (optional, displayed during the simulation load) and the [world](worlds/local_assets_example.wbt).
