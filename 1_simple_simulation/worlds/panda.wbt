@@ -15,7 +15,6 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/BrushedAluminium.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/Parquetry.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/tools/protos/Bolt.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/tools/protos/Nut.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/solids/protos/SolidBox.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/Copper.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/OldSteel.proto"
@@ -43,8 +42,8 @@ WorldInfo {
   basicTimeStep 16
 }
 DEF VIEWPOINT Viewpoint {
-  orientation -0.2690187512433882 -0.3484486460314119 0.8978933414155178 4.857941702332701
-  position -1.9927101125324844 9.253728611278573 5.318491197125936
+  orientation -0.21005185107476815 -0.5772090489931762 0.7891184534785994 5.412765882243327
+  position -1.5881974218492596 3.7082842251473815 2.073445713433802
   ambientOcclusionRadius 1
 }
 TexturedBackground {
@@ -125,12 +124,7 @@ Cabinet {
   }
 }
 PaintBucket {
-  translation -0.8613 2.434 0.74
-}
-PaintBucket {
-  translation -0.620172 2.57673 0.74
-  rotation 0 0 -1 -0.261795307179586
-  name "paint bucket(1)"
+  translation -0.8613 2.434 0.68
 }
 FireExtinguisher {
   translation 3.3738 6.38451 0
@@ -195,118 +189,10 @@ Table {
 }
 Transform {
   translation 0.650001 2.8 0.715
-  children [
-    Bolt {
-      rotation 0 1 0 -1.5707953071795862
-    }
-    Bolt {
-      translation -0.05 0 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(1)"
-    }
-    Bolt {
-      translation -0.1 0 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(2)"
-    }
-    Bolt {
-      translation 0 0.05 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(3)"
-    }
-    Bolt {
-      translation -0.05 0.05 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(4)"
-    }
-    Bolt {
-      translation -0.1 0.05 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(5)"
-    }
-    Bolt {
-      translation 0.05 0 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(6)"
-    }
-    Bolt {
-      translation 0.1 0 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(7)"
-    }
-    Bolt {
-      translation 0.15 0 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(8)"
-    }
-    Bolt {
-      translation 0.15 0.05 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(9)"
-    }
-    Bolt {
-      translation 0.1 0.05 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(10)"
-    }
-    Bolt {
-      translation 0.05 0.05 0.013
-      rotation 0 1 0 -1.5707953071795862
-      name "bolt(11)"
-    }
-  ]
 }
 Transform {
   translation 0.660001 2.66 0.704
   rotation 0 1 0 -1.5707953071795862
-  children [
-    Nut {
-    }
-    Nut {
-      translation 0 0.05 0.012
-      name "nut(3)"
-    }
-    Nut {
-      translation 0 0 0.062
-      name "nut(1)"
-    }
-    Nut {
-      translation 0 0.05 0.062
-      name "nut(4)"
-    }
-    Nut {
-      translation 0 0 0.112
-      name "nut(2)"
-    }
-    Nut {
-      translation 0 0.05 0.112
-      name "nut(5)"
-    }
-    Nut {
-      translation 0 0.05 -0.038
-      name "nut(6)"
-    }
-    Nut {
-      translation 0 0.05 -0.088
-      name "nut(7)"
-    }
-    Nut {
-      translation 0 0.05 -0.138
-      name "nut(8)"
-    }
-    Nut {
-      translation 0 0 -0.138
-      name "nut(9)"
-    }
-    Nut {
-      translation 0 0 -0.088
-      name "nut(10)"
-    }
-    Nut {
-      translation 0 0 -0.038
-      name "nut(11)"
-    }
-  ]
 }
 Transform {
   translation 0 2.75 0.73
@@ -831,12 +717,6 @@ Bolt {
 LincolnMKZSimple {
   translation -0.019942 9.00447 0.4
   rotation 0 0 1 -1.5708053071795867
-}
-PlasticCrate {
-  translation -0.75 2.53 0.72
-  rotation 0 0 1 -0.261795307179586
-  name "plastic crate(2)"
-  size 0.5 0.5 0.2
 }
 Transform {
   children [
