@@ -3,7 +3,7 @@ This basic example does not have a Dockerfile. Thus, the default one will be use
 
 This folder contains:
  - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
- - A [Makefile](Makefile) such that the default [Dockerfile](https://github.com/cyberbotics/webots/blob/master/resources/web/server/config/simulation/docker/Dockerfile.default) will compile the controller.
+ - A [Makefile](Makefile) such that the default [Dockerfile](https://github.com/cyberbotics/webots-server/blob/main/config/simulation/docker/Dockerfile.default) will compile the controller.
  - A [worlds](worlds) folder containing the [thumbnail](worlds/.moose_demo.jpg) (optional, displayed during the simulation load) and the [world](worlds/moose_demo.wbt) file.
  - A [controllers](controllers) folder containing the [controller](controllers/moose_path_following/moose_path_following.c) and the necessary Makefiles.
 
