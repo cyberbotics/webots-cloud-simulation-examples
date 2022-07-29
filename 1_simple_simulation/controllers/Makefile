@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGETS = panda_arm_demo.Makefile
+TARGETS = moose_path_following.Makefile
 
 .PHONY: release debug profile clean
 

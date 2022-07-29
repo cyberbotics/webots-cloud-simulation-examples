@@ -1,4 +1,6 @@
 # 2 Compile Controller
+In this example, the Dockerfile has been modified to compile directly a specific controller.
+
 This folder contains:
  - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
  - A [Dockerfile](Dockerfile) file that will compile the controller of the example.
