@@ -1,5 +1,5 @@
 # 4 Custom Dockerfile
-This simulation is an example of how to load additional dependencies needed by the simulation.
+This simulation demonstrates how to load additional dependencies needed by the simulation.
 
 This folder contains:
  - A [webots.yaml](webots.yaml) file that is mandatory for the simulation to be published on webots.cloud.
