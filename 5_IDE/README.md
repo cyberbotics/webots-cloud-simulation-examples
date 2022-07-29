@@ -1,5 +1,5 @@
 # 5 IDE
-This simulation will load with an online IDE, allowing you to modify the controller directly in [webots.cloud](https://webots.cloud)
+This simulation will load with an online IDE, allowing you to modify the robot controller directly in [webots.cloud](https://webots.cloud)
 
 This folder contains:
  - A [webots.yaml](webots.yaml) file that allows to enable the IDE in the web simulation.
