@@ -8,4 +8,4 @@ This folder contains:
 
 You can see in [worlds/local_assets_example.wbt](worlds/local_assets_example.wbt) the ways the different textures and protos are loaded.
 
-You can run this simulation on webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-examples/blob/main/7_local_assets/worlds/local_assets_demo.wbt).
+You can run this simulation on webots.cloud [here](https://webots.cloud/run?version=R2022b&url=https://github.com/cyberbotics/webots-cloud-simulation-examples/blob/main/7_local_assets/worlds/local_assets_example.wbt).
