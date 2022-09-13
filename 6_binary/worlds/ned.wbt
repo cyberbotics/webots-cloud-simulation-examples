@@ -19,6 +19,9 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/solids/protos/SolidBox.proto"
 
 WorldInfo {
+  info [
+    "A simulation of a Ned robot carrying a pick and place task."
+  ]
   title "Ned demo"
   basicTimeStep 16
 }

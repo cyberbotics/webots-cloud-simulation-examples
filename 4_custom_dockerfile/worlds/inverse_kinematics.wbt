@@ -27,13 +27,16 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/stairs/protos/StraightStairs.proto"
 
 WorldInfo {
+  info [
+    "A simulation of a IRB 4600/40 robot drawing a circle."
+  ]
   title "Irb demo"
   basicTimeStep 16
 }
 Viewpoint {
   fieldOfView 0.85
   orientation 0.2388738248349724 -0.10012515278982625 -0.9658748622816129 4.1946806176625975
-  position -3.1080865523453527 -4.718951396096871 4.244848256313246
+  position -2.5104708702193275 -5.891373900641042 4.875027226813213
   follow "robot:IRB 4600/40:solid:solid:solid:solid:solid:solid:pen"
   followType "Pan and Tilt Shot"
 }
