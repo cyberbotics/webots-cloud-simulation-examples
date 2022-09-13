@@ -27,6 +27,9 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/stairs/protos/StraightStairs.proto"
 
 WorldInfo {
+  info [
+    "A simulation of a IRB 4600/40 robot drawing a circle."
+  ]
   title "Irb demo"
   basicTimeStep 16
 }

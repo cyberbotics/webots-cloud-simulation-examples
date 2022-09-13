@@ -6,11 +6,12 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/mobsya/thymio/protos/Thymio2.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/ThreadMetalPlate.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/containers/protos/WoodenBox.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/obstacles/protos/OilBarrel.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/containers/protos/CardboardBox.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/toys/protos/PaperBoat.proto"
 
 WorldInfo {
+  info [
+    "A simulation of a Thymio robot with customizable speed."
+  ]
   title "Thymio demo"
 }
 Viewpoint {

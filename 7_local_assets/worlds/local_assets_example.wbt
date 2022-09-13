@@ -5,6 +5,9 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/project
 EXTERNPROTO "../protos/MyProto.proto"
 
 WorldInfo {
+  info [
+    "A simulation of a static forklift."
+  ]
   title "Local assets demo"
 }
 Viewpoint {
